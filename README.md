@@ -1,1 +1,1 @@
-SCAD Flux UX Club
+SCAD Flux UX Club Website
