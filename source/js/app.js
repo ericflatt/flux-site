@@ -2,6 +2,7 @@
 // JavaScript
 window.sr = ScrollReveal(); 
 
+//how to use scroll reveal
 // sr.reveal('h1', {
 //     delay: 0,
 //     duration: 200,
