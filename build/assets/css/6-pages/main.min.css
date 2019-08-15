@@ -1,0 +1,71 @@
+a {
+  text-decoration: none;
+  color: #4b4b4b; }
+
+.card-container {
+  margin: auto;
+  max-width: 1100px; }
+
+.card-holder {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-auto-rows: 200px;
+  grid-gap: 2.8rem;
+  width: 100%; }
+  @media only screen and (min-width: 1020px) {
+    .card-holder {
+      display: grid;
+      grid-template-columns: 4fr 4fr 4fr 4fr;
+      grid-auto-rows: 360px 360px;
+      grid-gap: 2.8rem; } }
+
+.person {
+  background-color: #fff;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s ease-out; }
+  .person h4 {
+    text-align: center;
+    color: #fff; }
+
+.person:nth-child(n):hover {
+  opacity: 0.7; }
+
+.person:nth-child(1) {
+  background-color: pink; }
+
+.person:nth-child(2) {
+  background-color: orange; }
+
+.person:nth-child(3) {
+  background-color: blue; }
+
+.person:nth-child(4) {
+  background-color: red; }
+
+.person:nth-child(5) {
+  background-color: pink; }
+
+.person:nth-child(6) {
+  background-color: orange; }
+
+.person:nth-child(7) {
+  background-color: blue; }
+
+.person:nth-child(8) {
+  background-color: red; }
+
+.person:nth-child(9) {
+  background-color: pink; }
+
+.person:nth-child(10) {
+  background-color: orange; }
+
+.person:nth-child(11) {
+  background-color: blue; }
+
+.person:nth-child(12) {
+  background-color: red; }
