@@ -32,7 +32,9 @@ a {
     color: #fff; }
 
 .person:nth-child(n):hover {
-  opacity: 0.7; }
+  -webkit-box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3); }
 
 .person:nth-child(1) {
   background-color: pink; }
