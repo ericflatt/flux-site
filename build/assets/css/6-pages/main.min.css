@@ -3,7 +3,8 @@ a {
   color: #4b4b4b; }
 
 .featuredText {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
 .card-container {
   margin: auto;

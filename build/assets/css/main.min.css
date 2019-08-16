@@ -376,6 +376,25 @@ button {
   border-radius: 0.5vh;
   margin-top: 40px; }
 
+.event {
+  border: solid;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+  border-width: .5px;
+  border-color: #000; }
+
+.bottomLine {
+  border-bottom-style: solid;
+  border-spacing: 10px;
+  width: 60px;
+  border-color: black; }
+
+.eventText {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
 body {
   background-color: white; }
 
@@ -384,7 +403,8 @@ a {
   color: #4b4b4b; }
 
 .featuredText {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
 .card-container {
   margin: auto;
