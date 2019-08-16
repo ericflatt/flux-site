@@ -347,10 +347,8 @@ hr {
   background-color: #cfcfcf;
   height: 80vh;
   width: 100vw;
+  max-width: 100%;
   margin: auto 0; }
-  @media only screen and (max-width: 680px) {
-    .hero, .hero-background {
-      height: 60vh; } }
 
 .hero-background {
   display: table; }
@@ -365,27 +363,28 @@ hr {
   text-align: center;
   display: table;
   border-radius: 15px; }
-  @media only screen and (max-width: 900px) {
-    .hero-container {
-      width: 464px;
-      height: 310px;
-      border-radius: 10px; } }
   @media only screen and (max-width: 680px) {
     .hero-container {
-      margin-top: 10vh; } }
+      width: 85vw;
+      height: 350px; } }
 
-h1 {
+.hr1 {
   margin-top: 80px;
   margin-bottom: 0; }
-  @media only screen and (max-width: 900px) {
-    h1 {
-      font-size: 50px; } }
+  @media only screen and (max-width: 500px) {
+    .hr1 {
+      line-height: 50px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-top: 50px; } }
 
-h3 {
+.hr3 {
   margin-top: 30px; }
-  @media only screen and (max-width: 900px) {
-    h3 {
-      font-size: 25px; } }
+  @media only screen and (max-width: 500px) {
+    .hr3 {
+      margin-top: 15px;
+      padding-right: 20px;
+      padding-left: 20px; } }
 
 button {
   height: 75px;
@@ -396,6 +395,18 @@ button {
   border: 0;
   border-radius: 5px;
   margin-top: 5px; }
+  @media only screen and (max-width: 500px) {
+    button {
+      height: 60px;
+      width: 220px; } }
+
+.footer {
+  background-color: #cfcfcf;
+  height: 50vh;
+  width: 100vw;
+  max-width: 100%;
+  margin: auto 0;
+  margin-top: 50px; }
 
 .event {
   border: solid;
