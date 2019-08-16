@@ -250,10 +250,10 @@ a {
     color: blue; }
 
 ::selection {
-  background: #1E90FF; }
+  background: yellow; }
 
 ::-moz-selection {
-  background: #1E90FF; }
+  background: yellow; }
 
 img::selection {
   background: transparent; }
@@ -262,7 +262,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #1E90FF; }
+  -webkit-tap-highlight-color: yellow; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
