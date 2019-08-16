@@ -343,11 +343,38 @@ hr {
   width: 100%;
   left: 0; }
 
-.hero {
-  background-color: grey;
+.hero, .hero-background {
+  background-color: #cfcfcf;
   height: 80vh;
   width: 100vw;
   margin: auto 0; }
+
+.hero-background {
+  display: table; }
+
+.hero-container {
+  background-color: #ababab;
+  width: 40vw;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  text-align: center;
+  display: table;
+  border-radius: 2vh; }
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 0; }
+
+h3 {
+  margin-top: 30px; }
+
+button {
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5vh;
+  margin-top: 40px; }
 
 body {
   background-color: white; }
