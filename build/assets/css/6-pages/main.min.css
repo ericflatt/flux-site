@@ -26,7 +26,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: all 0.3s ease-out; }
+  transition: all 0.3s ease-out;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
   .person h4 {
     text-align: center;
     color: #fff; }
@@ -36,11 +39,16 @@ a {
   -moz-box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3); }
 
+.person h4 {
+  color: white;
+  vertical-align: bottom; }
+
 .person:nth-child(1) {
   background-color: pink; }
 
 .person:nth-child(2) {
-  background-color: orange; }
+  background-image: url("../img/portfolioPics/elly.png");
+  background-color: white; }
 
 .person:nth-child(3) {
   background-color: blue; }
