@@ -464,6 +464,47 @@ button {
       height: 60px;
       width: 220px; } }
 
+.footer {
+  height: 600px; }
+
+.email-input {
+  height: 45px;
+  font-size: 18px;
+  padding: 10px;
+  border: 0.5px solid #000000;
+  border-radius: 10px; }
+
+.email-input:focus {
+  outline: none;
+  border: 1.5px solid #268ff0;
+  transition: all 0.1s ease; }
+
+.email-submit {
+  background-color: #268ff0;
+  color: white;
+  height: auto;
+  padding: 8px 15px 8px 15px;
+  width: auto;
+  min-height: 40px;
+  margin-top: 15px; }
+
+.input-container {
+  display: table-caption; }
+
+.email-message {
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 10px;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
+  min-width: 400px;
+  min-height: 120px; }
+
+.email-message:focus {
+  outline: none;
+  border: 1.5px solid #268ff0;
+  transition: all 0.1s ease; }
+
 .event {
   border: solid;
   border-radius: 20px;

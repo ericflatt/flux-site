@@ -160,28 +160,24 @@
   <div class="wrapper signup">
     <h1>Email list</h1>
     <h3>Never miss out on any upcoming flux events</h3>
-    <input type="email" name="email" class="email-input">
-    <button class="email-submit">submit</button>
+    <div class="input-container">
+      <input type="email" name="email" class="email-input" placeholder="Your Email">
+      <button class="email-submit">submit</button>
+    </div>
   </div>
 </section>
 
 <section>
   <div class="wrapper footer">
-
     <h1>contact us</h1>
     <h3>send us an email or follow us on social media</h3>
     <form method="POST" action="https://formspree.io/thefluxemail@email.com">
-      <input type="email" name="email" placeholder="Your email">
-      <textarea name="message" placeholder="Your message"></textarea>
-      <button type="submit">Send Email</button>
+      <div class="input-container">
+        <input type="email" name="email" placeholder="Your Email" class="email-input">
+        <textarea name="message" placeholder="Your message" class="email-message"></textarea>
+        <button type="submit" class="email-submit">Send Email</button>
+      </div>
     </form>
-
-    <ul>
-      <li>Facebook</li>
-      <li>Instagram</li>
-      <li>Twitter</li>
-      <li>Dribbble</li>
-    </ul>
   </div>
 </section>
 
