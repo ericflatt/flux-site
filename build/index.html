@@ -18,13 +18,41 @@
     |__/      |________/ \______/ |__/  |__/
                                             -->
 
- <!-- Nav -->
- <section class="nav">
-  
-</section>
 
-<!-- Home/hero -->
-<section class="wrapper hero">
+ <!-- Responsive Nav -->
+
+<span class="button" id="btn">&#9776;</span>
+<div id="modal" class="modal">
+  <div onclick="anchorClick()" class="modal-content"> 
+    <span class="close">&times;</span>
+    <a onclick="anchorClick()" href="#events">
+        <h1>Events</h1>
+    </a>
+    <br>
+    <a href="#portfolios">
+        <h1>Portfolios</h1>
+    </a>
+    <br>
+    <a href="/">
+        <h1>Contact</h1>
+    </a>
+  </div>
+</div>
+
+
+
+ <!-- Nav -->
+ <nav class="nav">
+    <div class="navbar">
+        <a href="#hero">FLUX Logo</a>
+        <a href="/">Contact</a>
+        <a href="#portfolios">Portfolios</a>
+        <a href="#events">Events</a>
+      </div>
+    </nav>
+
+<!-- Home/hero-->
+<section id="hero" class="wrapper hero">
   <div class="hero-background">
     <div class="hero-container">
         <h1>Welcome to FLUX</h1>
@@ -32,11 +60,13 @@
         <button>learn more/email list?</button>
     </div>
   </div>
-</section>
+</section> 
+
+
 
 <!-- Event Schedule -->
 
-<section class="wrapper">
+<section id="events" class="wrapper">
     <div class="eventText">
       <h1>Event Schedule</h1>
       <h3>Insert sentence about events</h3>
@@ -75,7 +105,7 @@
 
 <!-- Portfolios -->
 
-  <section>
+  <section id="portfolios">
     <div class="wrapper featuredText">
       <h1>Featured Portfolios</h1>
       <h3>Check out these awesome portfolios from members of the flux community</h3>
