@@ -7,9 +7,10 @@
   width: 100%
 
   @media only screen and (max-width: 768px)
-    display: none
-    user-select: none
-
+    visibility: hidden
+  @media only screen and (min-width: 768px)
+    visibility: visible
+ 
 
 
 .navbar a 
@@ -37,29 +38,27 @@
 //responsive nav
 
 
-    
-
-.button
+.hamburgerMenu
     padding-top: 15px 
     padding-right: 15px
     font-size: 30px
-    user-select: none
-    float: right
+    position: fixed
+    right: 0
 
-    @media only screen and (min-width: 768px)
+    @media only screen and (min-width: 767px)
         display: none
 
 
 
 .modal 
-  display: none /* Hidden by default */
-  position: fixed /* Stay in place */
-  z-index: 1 /* Sit on top */
+  display: none 
+  position: fixed
+  z-index: 1 
   top: 0
-  width: 100% /* Full width */
-  height: 100% /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0) /* Fallback color */
+  width: 100% 
+  height: 100% 
+  overflow: auto; 
+  background-color: rgb(0,0,0) 
   background-color: rgba(0,0,0,0.4) /* Black w/ opacity */
 
 
@@ -68,7 +67,7 @@
   background-color: #fefefe
   margin: auto
   padding: 20px
-  width: auto
+  width: 100%
   height: 100%
   user-select: none
 
@@ -83,3 +82,5 @@
   cursor: pointer
   float: right
 
+.topNavElement
+  margin-top: 150px

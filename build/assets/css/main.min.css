@@ -326,8 +326,10 @@ hr {
   width: 100%; }
   @media only screen and (max-width: 768px) {
     .navbar {
-      display: none;
-      user-select: none; } }
+      visibility: hidden; } }
+  @media only screen and (min-width: 768px) {
+    .navbar {
+      visibility: visible; } }
 
 .navbar a {
   float: right;
@@ -349,14 +351,14 @@ hr {
   transition: background-color .5s ease 0s;
   box-shadow: 0 0 4px grey; }
 
-.button {
+.hamburgerMenu {
   padding-top: 15px;
   padding-right: 15px;
   font-size: 30px;
-  user-select: none;
-  float: right; }
-  @media only screen and (min-width: 768px) {
-    .button {
+  position: fixed;
+  right: 0; }
+  @media only screen and (min-width: 767px) {
+    .hamburgerMenu {
       display: none; } }
 
 .modal {
@@ -367,7 +369,6 @@ hr {
   width: 100%;
   height: 100%;
   overflow: auto;
-  /* Enable scroll if needed */
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4); }
 
@@ -375,7 +376,7 @@ hr {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  width: auto;
+  width: 100%;
   height: 100%;
   user-select: none; }
   .modal-content a {
@@ -387,6 +388,9 @@ hr {
   font-weight: bold;
   cursor: pointer;
   float: right; }
+
+.topNavElement {
+  margin-top: 150px; }
 
 .flex-video {
   height: 0;
