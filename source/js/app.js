@@ -1,5 +1,3 @@
-
-// JavaScript
 window.sr = ScrollReveal(); 
 
 //how to use scroll reveal
