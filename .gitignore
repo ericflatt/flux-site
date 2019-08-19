@@ -1,6 +1,15 @@
 
-# Created by https://www.gitignore.io/api/node,sass,macos
-# Edit at https://www.gitignore.io/?templates=node,sass,macos
+# Created by https://www.gitignore.io/api/node,sass,macos,firebase
+# Edit at https://www.gitignore.io/?templates=node,sass,macos,firebase
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
 
 ### macOS ###
 # General
@@ -126,4 +135,4 @@ typings/
 *.sass.map
 *.scss.map
 
-# End of https://www.gitignore.io/api/node,sass,macos
+# End of https://www.gitignore.io/api/node,sass,macos,firebase
