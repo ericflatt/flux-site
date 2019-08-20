@@ -499,6 +499,9 @@ button {
   border-radius: 10px;
   min-width: 400px;
   min-height: 120px; }
+  @media only screen and (max-width: 500px) {
+    .email-message {
+      min-width: 300px; } }
 
 .email-message:focus {
   outline: none;
