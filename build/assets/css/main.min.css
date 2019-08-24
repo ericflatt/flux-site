@@ -578,15 +578,13 @@ a {
   @media only screen and (max-width: 768px) {
     .person h4 {
       text-align: left;
-      margin-left: 30px;
+      margin-left: 15px;
       margin-bottom: 0px;
       color: #fff;
       margin-top: 0px; }
     .person h5 {
       font-weight: 400;
-      margin-left: 30px;
-      margin-top: 0px;
-      margin-bottom: 0px; } }
+      margin-left: 15px; } }
 
 .person:nth-child(n) {
   -webkit-box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.3);
@@ -599,9 +597,10 @@ a {
   margin-top: 30px; }
   @media only screen and (max-width: 768px) {
     .circlePhoto {
-      margin-left: 30px;
-      margin-bottom: 0px;
-      margin-top: 30px; } }
+      margin: auto;
+      display: block;
+      margin-top: 25px;
+      margin-bottom: 10px; } }
 
 .person h4 {
   color: black; }
