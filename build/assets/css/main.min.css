@@ -315,6 +315,26 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.nav {
+  background-color: transparent;
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  align-items: center; }
+
+.navContent {
+  background-color: white;
+  height: 100%;
+  word-spacing: 20px;
+  padding: 10px 18px;
+  border-radius: 100px;
+  font-weight: bold; }
+
+.navLogo {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 40px; }
+
 .navbar {
   overflow: hidden;
   background-color: transparent;
@@ -329,8 +349,11 @@ hr {
     .navbar {
       visibility: visible; } }
 
+.navLinks {
+  background-color: white; }
+
 .navbar a {
-  float: right;
+  float: left;
   display: block;
   color: black;
   text-align: center;
