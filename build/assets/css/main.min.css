@@ -438,7 +438,8 @@ hr {
   margin: auto 0; }
 
 .hero-background {
-  display: table; }
+  display: table;
+  background-image: url("../img/portfolioPics/bg.png"); }
 
 .hero-container {
   background-color: #ababab;
