@@ -1,9 +1,12 @@
 .hero, .hero-background
-    background-color: #cfcfcf
-    height: 80vh
+    height: 100vh
     width: 100vw
     max-width: 100%
     margin: auto 0
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
 
 
 .hero-background
@@ -11,19 +14,38 @@
     background-image: url("../img/portfolioPics/bg.png")
 
 .hero-container
-    background-color: #ababab
-    width: 620px
-    height: 320px
     margin-left: auto
     margin-right: auto
     margin-top: 20vh
     text-align: center
-    display: table
-    border-radius: 15px
+    h1
+        color: white
+    h2
+        color: white
+    h3
+        color: white
+        font-weight: 300
     @media only screen and (max-width: 680px)
         width: 85vw
         height: 350px
 
+.scrollDown
+    h4
+        color: white
+        font-weight: 300
+        text-align: center
+        bottom: 0
+        left: 0
+        right: 0
+        position: absolute 
+    
+.downArrow
+    display: block
+    margin: auto
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 10px    
 
 .hr1
     margin-top: 80px
