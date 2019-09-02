@@ -663,7 +663,7 @@ a {
   background-color: pink; }
 
 .person:nth-child(2) {
-  background-image: url("../img/portfolioPics/flux.png");
+  background-image: url("../img/flux.png");
   background-position: center;
   background-size: 100%; }
 
