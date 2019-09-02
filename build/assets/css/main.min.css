@@ -437,7 +437,8 @@ hr {
   margin: auto 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 .hero-background {
   display: table;
@@ -597,13 +598,12 @@ a {
   @media only screen and (min-width: 1020px) {
     .card-holder {
       display: grid;
-      grid-template-columns: 4fr 4fr 4fr 4fr;
-      grid-auto-rows: 360px 360px;
+      grid-template-columns: 4fr 4fr 4fr;
+      grid-auto-rows: 168px 328px;
       grid-gap: 2.8rem; } }
 
 .person {
   background-color: #fff;
-  border-radius: 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -663,7 +663,7 @@ a {
   background-color: pink; }
 
 .person:nth-child(2) {
-  background-image: url("");
+  background-image: url("../img/portfolioPics/flux.png");
   background-color: white; }
 
 .person:nth-child(3) {
