@@ -558,7 +558,7 @@ h5 {
 
 .email-input:focus {
   outline: none;
-  border: 1.5px solid #268ff0;
+  border: 1.5px solid #c7c7c7;
   transition: all 0.1s ease; }
 
 .email-submit {
