@@ -1,4 +1,25 @@
 .signup
+    height: 100vh
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    
+h2
+    font-size: 32px
+    font-weight: 700
+    margin-bottom: 0
+h4
+    font-size: 20px
+    font-weight: 400
+    margin-top: 2px
+    margin-bottom: 5px
+h5
+    color: #316EFF
+    font-size: 15px
+    font-weight: 900
+    margin-top: 5px
+    
     
 
 .footer
@@ -6,10 +27,12 @@
 
 .email-input
     height: 45px
-    font-size: 18px
+    width: 450px
+    font-size: 16px
     padding: 10px
-    border: 0.5px solid #000000
-    border-radius: 10px
+    border: 0.5px solid #c7c7c7
+    @media only screen and (max-width: 500px)
+        width: 250px
     
 .email-input:focus
     outline: none
@@ -17,17 +40,19 @@
     transition: all 0.1s ease
 
 .email-submit
-    background-color: #268ff0
+    background-color: #000000
     color: white
     height: auto
-    padding: 8px 15px 8px 15px
-    
+    padding: 8px 57px 8px 57px
     width: auto
     min-height: 40px
     margin-top: 15px
+    text-transform: none
+    border-radius: 100px
 
 .input-container
-    display: table-caption
+    display: block
+    margin: auto
 
 .email-message
     margin-top: 15px

@@ -8,6 +8,9 @@ window.sr = ScrollReveal();
 //     distance: '100px' 
 // });
 
+var form = document.getElementById("form");
+form.reset();
+
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
