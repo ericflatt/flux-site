@@ -9,8 +9,8 @@ window.sr = ScrollReveal();
 // });
 
 //form reset?
-var form = document.getElementById("form");
-form.reset();
+// var form = document.getElementById("form");
+// form.reset();
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -82,3 +82,26 @@ function anchorClick() {
 //      parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 //  }
 //});
+
+
+
+//       --Email Form--
+
+var $form = $('form#email-form'),
+    url = 'https://script.google.com/macros/s/AKfycby3QeneQ5eVhhpyqf1-yb0VujP1LZqrtOlCh2u6gYU42s9Ix28/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject(),
+    success: (
+      console.log("success!"),
+      $('#email-form').trigger("reset"),
+      $('#submit-form').addClass("email-submit-confirm").text("You're all set!")
+    )
+  }
+  );
+})

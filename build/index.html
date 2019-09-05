@@ -185,7 +185,7 @@
 
 <!-- footer -->
 
-<!-- this is just the skeleton, i promise ill add css later -->
+
 <section>
   <div class="wrapper signup">
     <div class="formCentered">
@@ -194,13 +194,21 @@
     <a href="mailto:">
       <h5>Or, email us directly</h5>
     </a>
-    <form id="form" action="https://formspree.io/eflatt18@gmail.com" method="POST">
+
+
+    <!-- Email form:
+            right now, all submited inputs go to:
+            https://docs.google.com/spreadsheets/d/1a3E6WBWbDIQ1jLE3fcq9EOyy02O6ZEfunR6KdcJbroM/edit?usp=sharing        
+    -->
+    <form id="email-form">
+
     <div class="input-container">
-      <input autocomplete="off" type="email" name="email" class="email-input" placeholder="SCAD Email address">
+      <input autocomplete="off" type="email" name="emails_from_input" class="email-input" placeholder="SCAD Email address">
     </div>
     <div>
-      <button type="submit" class="email-submit">Register</button>
+      <button type="submit" class="email-submit " id="submit-form">Register</button>
     </div>
+
   </form>
   </div>
   </div>
