@@ -200,10 +200,11 @@
             right now, all submited inputs go to:
             https://docs.google.com/spreadsheets/d/1a3E6WBWbDIQ1jLE3fcq9EOyy02O6ZEfunR6KdcJbroM/edit?usp=sharing        
     -->
+
     <form id="email-form">
 
     <div class="input-container">
-      <input autocomplete="off" type="email" name="emails_from_input" class="email-input" placeholder="SCAD Email address">
+      <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required id="emailField" type="email" autocomplete="off" name="emails_from_input" class="email-input" placeholder="SCAD Email address">
     </div>
     <div>
       <button type="submit" class="email-submit " id="submit-form">Register</button>
