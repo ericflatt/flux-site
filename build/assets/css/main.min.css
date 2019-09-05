@@ -534,11 +534,16 @@ button {
     font-weight: 400;
     margin-top: 2px;
     margin-bottom: 5px; }
-  .signup h5 {
-    color: #316EFF;
-    font-size: 15px;
-    font-weight: 900;
-    margin-top: 5px; }
+
+.emailLink {
+  color: #316EFF;
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 50px; }
+
+.emailLink:hover {
+  color: #316EFF; }
 
 .footer {
   height: 600px; }
@@ -565,7 +570,7 @@ button {
   padding: 8px 57px 8px 57px;
   width: auto;
   min-height: 40px;
-  margin-top: 15px;
+  margin-top: 21px;
   text-transform: none;
   border-radius: 100px; }
 
@@ -593,25 +598,6 @@ button {
   outline: none;
   border: 1.5px solid #268ff0;
   transition: all 0.1s ease; }
-
-.event {
-  border: solid;
-  border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 25px;
-  border-width: .5px;
-  border-color: #000; }
-
-.bottomLine {
-  border-bottom-style: solid;
-  border-spacing: 10px;
-  width: 60px;
-  border-color: black; }
-
-.eventText {
-  margin-top: 25px;
-  margin-bottom: 25px; }
 
 .portfolioGrid {
   margin: auto;
@@ -683,6 +669,21 @@ a {
   .featuredText h5 {
     width: 30%;
     margin-top: 10px; }
+
+#events {
+  margin-top: 50px; }
+
+.card {
+  display: flex;
+  align-items: center; }
+
+.cardText {
+  display: block; }
+
+.portfolioFace {
+  width: 46px;
+  height: 46px;
+  margin-left: 100px; }
 
 .calendarButton {
   color: white;
