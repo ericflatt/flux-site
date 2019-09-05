@@ -474,7 +474,7 @@ hr {
   color: white;
   font-weight: 300;
   text-align: center;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   right: 0;
   position: absolute; }
@@ -525,23 +525,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 0; }
-
-h4 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 2px;
-  margin-bottom: 5px; }
-
-h5 {
-  color: #316EFF;
-  font-size: 15px;
-  font-weight: 900;
-  margin-top: 5px; }
+  .signup h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0; }
+  .signup h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 5px; }
+  .signup h5 {
+    color: #316EFF;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 5px; }
 
 .footer {
   height: 600px; }
@@ -612,6 +609,61 @@ h5 {
   margin-top: 25px;
   margin-bottom: 25px; }
 
+.portfolioGrid {
+  margin: auto;
+  max-width: 1100px; }
+
+.portfolioCards {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-auto-rows: auto;
+  grid-gap: 2.8rem;
+  width: 100%; }
+  @media only screen and (min-width: 1020px) {
+    .portfolioCards {
+      display: grid;
+      grid-template-columns: 4fr 4fr 4fr;
+      grid-auto-rows: auto;
+      grid-gap: 2.8rem; } }
+  @media only screen and (max-width: 768px) {
+    .portfolioCards {
+      display: grid;
+      grid-template-columns: 4fr;
+      grid-auto-rows: auto;
+      grid-gap: 2.8rem; } }
+
+.person {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(70, 70, 70, 0.15);
+  border-radius: 8px;
+  max-height: 100px;
+  max-width: 328px; }
+  .person img {
+    float: right; }
+  .person h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 25px; }
+  .person h5 {
+    margin-top: 0;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #656565; }
+
+.portfolioButton {
+  color: white;
+  margin-left: 20px;
+  background-color: black;
+  border-radius: 100px;
+  padding: 8px 28px;
+  float: right; }
+
+.portfolioButton:hover {
+  color: white; }
+
 body {
   background-color: white; }
 
@@ -630,6 +682,7 @@ a {
 
 .calendarButton {
   color: white;
+  margin-left: 20px;
   background-color: black;
   border-radius: 100px;
   padding: 8px 18px;
@@ -662,29 +715,29 @@ a {
       .card-holder h5 {
         width: 50%; } }
 
-.person {
+.calendarEvent {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transition: all 0.3s ease-out; }
   @media only screen and (max-width: 768px) {
-    .person h4 {
+    .calendarEvent h4 {
       text-align: left;
       margin-left: 15px;
       margin-bottom: 0px;
       color: #fff;
       margin-top: 0px; }
-    .person h5 {
+    .calendarEvent h5 {
       font-weight: 400;
       margin-left: 15px; } }
 
-.person h4 {
+.calendarEvent h4 {
   color: black;
   margin-top: 32px;
   margin-bottom: 0; }
 
-.person h5 {
+.calendarEvent h5 {
   margin-top: 12px;
   font-weight: 300; }
 
