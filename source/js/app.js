@@ -8,6 +8,7 @@ window.sr = ScrollReveal();
 //     distance: '100px' 
 // });
 
+//form reset?
 var form = document.getElementById("form");
 form.reset();
 
