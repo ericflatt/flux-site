@@ -87,10 +87,24 @@ function anchorClick() {
 
 //       --Email Form--
 
+// var x = $('#emailField').val();
+
+// function validateForm() {
+  
+//   console.log(x);
+//   if (x == "") {
+//     alert("Invalid email address, please try again.");
+//     $('#submit-form').addClass("email-submit-error").text("Register")
+//     return false;
+//   }
+//   $('#email-form').trigger("reset")
+// }
+
 var $form = $('form#email-form'),
     url = 'https://script.google.com/macros/s/AKfycby3QeneQ5eVhhpyqf1-yb0VujP1LZqrtOlCh2u6gYU42s9Ix28/exec'
 
 $('#submit-form').on('click', function(e) {
+  
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
@@ -99,10 +113,19 @@ $('#submit-form').on('click', function(e) {
     data: $form.serializeObject(),
     success: (
       console.log("success!"),
-      $('#email-form').trigger("reset"),
-      $('#submit-form').addClass("email-submit-confirm").text("You're all set!")
+      $('#submit-form').addClass("email-submit-confirm").text("You're all set!"),
+      $('#email-form').trigger("reset")
+
     )
   }
   );
+  // validateForm();
 })
 
+
+
+
+function portfolioViewMore() {
+  $(".person").addClass("card-display-shown");
+  console.log("view more clicked")
+}
