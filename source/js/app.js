@@ -103,27 +103,39 @@ function anchorClick() {
 var $form = $('form#email-form'),
     url = 'https://script.google.com/macros/s/AKfycby3QeneQ5eVhhpyqf1-yb0VujP1LZqrtOlCh2u6gYU42s9Ix28/exec'
 
-$('#submit-form').on('click', function(e) {
-  
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject(),
-    success: (
-      console.log("success!"),
-      $('#submit-form').addClass("email-submit-confirm").text("You're all set!"),
-      $('#email-form').trigger("reset")
+var validations ={
+    email: [/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/, 'Please enter a valid email address']};
 
-    )
-  }
-  );
-  // validateForm();
+$(document).ready(function(){
+  $("input[type=email]").change( function(){
+    validation = new RegExp(validations['email'][0]);
+    if (!validation.test(this.value)){
+      this.setCustomValidity(validations['email'][1]);
+      return false;
+      
+    } else {
+      this.setCustomValidity('');
+      $('#submit-form').on('click', function(e) {
+        e.preventDefault();
+        var jqxhr = $.ajax({
+          url: url,
+          method: "GET",
+          dataType: "json",
+          data: $form.serializeObject(),
+          success: (
+            console.log("success!"),
+            $('#submit-form').addClass("email-submit-confirm").text("You're all set!"),
+            $('#email-form').trigger("reset")
+          )
+        });
+      })
+    }
+  });
 })
 
 
 
+//view more
 
 function portfolioViewMore() {
   $(".person").addClass("card-display-shown");
