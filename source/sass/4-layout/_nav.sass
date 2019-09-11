@@ -4,6 +4,8 @@
   position: fixed
   display: flex
   align-items: center
+  @media only screen and (max-width: 768px)
+    visibility: hidden
 
 .navContent
   background-color: white
@@ -13,14 +15,14 @@
   font-weight: bold
   padding-top: 10px
   padding-bottom: 10px
-  padding-left: 18px
-  padding-right: 18px
+  padding-left: 25px
+  padding-right: 25px
+  border: .5px solid #d1d1d1
+  box-shadow: 0px 3.79288px 26.5502px rgba(0, 0, 0, 0.15)
 
 
   .navContent.solid
-    background-color: white
-    transition: background-color .5s ease 0s;
-    box-shadow: 0 0 4px grey;
+
 
 
 .navLogo
@@ -29,7 +31,7 @@
   padding-right: 40px
 
 
-.navbar 
+.navbar
   overflow: hidden
   background-color: transparent
   position: fixed
@@ -40,13 +42,13 @@
     visibility: hidden
   @media only screen and (min-width: 768px)
     visibility: visible
- 
+
 .navLinks
   background-color: white
-  
 
 
-.navbar a 
+
+.navbar a
   float: left
   display: block
   color: black
@@ -56,60 +58,65 @@
   font-size: 17px
 
 
-.navbar a:hover 
+.navbar a:hover
   color: white
 
 .navbar a:nth-child(1)
     float: left
 
 .navbar.solid
-    background-color: lightBlue;
-    transition: background-color .5s ease 0s;
-    box-shadow: 0 0 4px grey;
+    background-color: lightBlue
+    transition: background-color .5s ease 0s
+    box-shadow: 0 0 4px grey
+
+
+.socialLogos
+
+
 
 
 //responsive nav
 
 
 .hamburgerMenu
-    padding-top: 15px 
+    padding-top: 15px
     padding-right: 15px
     font-size: 30px
     position: fixed
     right: 0
 
-    @media only screen and (min-width: 767px)
-        display: none
+    @media only screen and (min-width: 768px)
+        visibility: hidden
 
 
 
-.modal 
-  display: none 
+.modal
+  display: none
   position: fixed
-  z-index: 1 
+  z-index: 1
   top: 0
-  width: 100% 
-  height: 100% 
-  overflow: auto; 
-  background-color: rgb(0,0,0) 
+  width: 100%
+  height: 100%
+  overflow: auto
+  background-color: rgb(0,0,0)
   background-color: rgba(0,0,0,0.4)
 
 
 
-.modal-content 
+.modal-content
   background-color: #fefefe
   margin: auto
   padding: 20px
   width: 100%
   height: 100%
   user-select: none
-  
+
 
   a
     cursor: pointer
 
 
-.close 
+.close
   color: #aaaaaa
   font-size: 28px
   font-weight: bold
