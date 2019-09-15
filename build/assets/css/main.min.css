@@ -316,26 +316,40 @@ hr {
 
 .nav {
   background-color: transparent;
+  width: 100%;
   z-index: 999;
   position: fixed;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 20px;
+  transition: .3s all ease; }
+  .nav a {
+    margin-right: 20px;
+    margin-left: 20px; }
   @media only screen and (max-width: 768px) {
     .nav {
       visibility: hidden; } }
 
-.navContent {
+.nav.solid {
+  color: black;
   background-color: white;
+  opacity: .9; }
+  .nav.solid a {
+    color: black; }
+
+.navContent {
   height: 100%;
-  word-spacing: 20px;
-  border-radius: 100px;
+  color: white;
+  word-spacing: 30px;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
-  padding-right: 25px;
-  border: .5px solid #d1d1d1;
-  box-shadow: 0px 3.79288px 26.5502px rgba(0, 0, 0, 0.15); }
+  padding-right: 25px; }
+  .navContent a {
+    color: white;
+    font-weight: 900;
+    font-size: 14px; }
 
 .navLogo {
   padding-top: 20px;
