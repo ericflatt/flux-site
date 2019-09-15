@@ -279,8 +279,9 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 32px; } }
 
 .bigger, h3 {
-  font-size: 26px;
-  line-height: 1.38; }
+  font-size: 32px;
+  line-height: 1.38;
+  font-weight: 900; }
   @media only screen and (max-width: 680px) {
     .bigger, h3 {
       font-size: 22px; } }
@@ -291,6 +292,9 @@ h1, h2, h3, h4, h5, h6 {
   @media only screen and (max-width: 680px) {
     .big, h4 {
       font-size: 18px; } }
+
+h5 {
+  font-size: 15px; }
 
 .small, small {
   font-size: 10px;
@@ -753,7 +757,7 @@ a {
       display: block;
       margin: auto; }
       .card-holder h5 {
-        width: 50%; } }
+        width: 80%; } }
 
 .calendarEvent {
   background-color: #fff;
