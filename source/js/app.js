@@ -1,11 +1,11 @@
-window.sr = ScrollReveal(); 
+window.sr = ScrollReveal();
 
 //how to use scroll reveal
 // sr.reveal('h1', {
 //     delay: 0,
 //     duration: 200,
 //     origin: 'bottom',
-//     distance: '100px' 
+//     distance: '100px'
 // });
 
 //form reset?
@@ -32,19 +32,19 @@ $(document).ready(function(){
 
         window.location.hash = hash;
       });
-    } 
+    }
   });
 });
 
 //transparent to solid color nav bar
 $(document).ready(function() {
-     
+
     $(window).scroll(function() {
 
-      if($(this).scrollTop() > 500) { 
-          $('.navContent').addClass('solid');
+      if($(this).scrollTop() > 500) {
+          $('.nav').addClass('solid');
       } else {
-          $('.navContent').removeClass('solid');
+          $('.nav').removeClass('solid');
       }
     });
 });
@@ -90,7 +90,7 @@ function anchorClick() {
 // var x = $('#emailField').val();
 
 // function validateForm() {
-  
+
 //   console.log(x);
 //   if (x == "") {
 //     alert("Invalid email address, please try again.");
@@ -112,7 +112,7 @@ $(document).ready(function(){
     if (!validation.test(this.value)){
       this.setCustomValidity(validations['email'][1]);
       return false;
-      
+
     } else {
       this.setCustomValidity('');
       $('#submit-form').on('click', function(e) {
