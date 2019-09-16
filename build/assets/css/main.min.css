@@ -416,7 +416,8 @@ hr {
   padding-right: 15px;
   font-size: 30px;
   position: fixed;
-  right: 0; }
+  right: 0;
+  z-index: 999; }
   @media only screen and (min-width: 768px) {
     .hamburgerMenu {
       visibility: hidden; } }
@@ -430,7 +431,8 @@ hr {
   height: 100%;
   overflow: auto;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000; }
 
 .modal-content {
   background-color: #fefefe;
