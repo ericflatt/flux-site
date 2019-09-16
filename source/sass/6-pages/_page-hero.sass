@@ -33,7 +33,10 @@
 
     h1
         color: white
-        line-height: .5px          
+        line-height: .5px
+        @media only screen and (max-width: 768px)
+          line-height: .9
+          margin: 0
 
     h2
         color: white
@@ -43,8 +46,8 @@
         font-weight: 300
 
 
-    @media only screen and (max-width: 680px)
-        width: 85vw
+    @media only screen and (max-width: 768px)
+        width: 100vw
         height: 350px
 
 .scrollDown

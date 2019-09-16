@@ -504,14 +504,18 @@ hr {
   .hero-container h1 {
     color: white;
     line-height: .5px; }
+    @media only screen and (max-width: 768px) {
+      .hero-container h1 {
+        line-height: .9;
+        margin: 0; } }
   .hero-container h2 {
     color: white; }
   .hero-container h3 {
     color: white;
     font-weight: 300; }
-  @media only screen and (max-width: 680px) {
+  @media only screen and (max-width: 768px) {
     .hero-container {
-      width: 85vw;
+      width: 100vw;
       height: 350px; } }
 
 .scrollDown h4 {
@@ -732,6 +736,9 @@ a {
   .featuredText h5 {
     width: 30%;
     margin-top: 10px; }
+    @media only screen and (max-width: 768px) {
+      .featuredText h5 {
+        width: 100%; } }
 
 #events {
   margin-top: 50px; }
@@ -756,6 +763,9 @@ a {
   padding: 8px 18px;
   float: right;
   transition: .2s all ease; }
+  @media only screen and (max-width: 768px) {
+    .calendarButton {
+      float: left; } }
 
 .calendarButton:hover {
   color: white; }
