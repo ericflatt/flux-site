@@ -332,6 +332,8 @@ hr {
     margin-left: 20px; }
   .nav svg {
     margin-right: 15px; }
+  .nav li {
+    list-style: none; }
   @media only screen and (max-width: 768px) {
     .nav {
       visibility: hidden; } }
@@ -402,6 +404,12 @@ hr {
 
 .navbar a:nth-child(1) {
   float: left; }
+
+.rightAlign {
+  margin-left: auto; }
+  .rightAlign a {
+    margin-left: 5px;
+    margin-right: 5px; }
 
 .hamburgerMenu {
   padding-top: 15px;
