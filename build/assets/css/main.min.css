@@ -725,9 +725,20 @@ button {
   float: right;
   cursor: pointer;
   transition: .2s all ease; }
+  @media only screen and (max-width: 768px) {
+    .portfolioButton {
+      float: none;
+      display: inline-block; } }
 
 .portfolioButton:hover {
   color: white; }
+
+.buttonsContainer {
+  float: right; }
+  @media only screen and (max-width: 768px) {
+    .buttonsContainer {
+      width: 100%;
+      text-align: center; } }
 
 .card-display-shown {
   visibility: visible;
@@ -749,9 +760,10 @@ a {
   margin-top: 25px;
   margin-bottom: 25px; }
   .featuredText h3 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 32px; }
   .featuredText h5 {
-    width: 30%;
+    width: 50%;
     margin-top: 10px; }
     @media only screen and (max-width: 768px) {
       .featuredText h5 {
