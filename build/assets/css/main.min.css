@@ -420,7 +420,8 @@ hr {
   font-size: 30px;
   position: fixed;
   right: 0;
-  z-index: 999; }
+  z-index: 999;
+  cursor: pointer; }
   @media only screen and (min-width: 768px) {
     .hamburgerMenu {
       visibility: hidden; } }
@@ -686,7 +687,9 @@ button {
   opacity: 0;
   transition: visibility 0.6s ease, opacity 0.6s ease; }
   .person img {
-    float: right; }
+    float: right;
+    margin-left: auto;
+    margin-right: 20px; }
     @media only screen and (max-width: 768px) {
       .person img {
         margin-right: 20px;
@@ -704,7 +707,14 @@ button {
     color: #656565; }
   @media only screen and (max-width: 768px) {
     .person {
-      margin: auto; } }
+      margin: auto;
+      max-width: 60vw;
+      width: 60vw;
+      max-height: 200px; } }
+  @media only screen and (max-width: 550px) {
+    .person {
+      max-width: 80vw;
+      width: 80vw; } }
 
 .portfolioButton {
   color: white;
@@ -755,12 +765,12 @@ a {
   align-items: center; }
 
 .cardText {
-  display: block; }
+  display: block;
+  margin-right: auto; }
 
 .portfolioFace {
   width: 46px;
-  height: 46px;
-  margin-left: 100px; }
+  height: 46px; }
 
 .calendarButton {
   color: white;
