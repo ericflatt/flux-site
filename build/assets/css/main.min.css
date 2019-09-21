@@ -252,6 +252,9 @@ img::selection {
 img::-moz-selection {
   background: #ACCEF7; }
 
+body {
+  font-family: 'Avenir', sans-serif; }
+
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -329,9 +332,11 @@ hr {
   transition: .5s all ease; }
   .nav a {
     margin-right: 20px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300; }
   .nav svg {
-    margin-right: 15px; }
+    margin-right: 5px; }
   .nav li {
     list-style: none; }
   @media only screen and (max-width: 768px) {
@@ -339,7 +344,7 @@ hr {
       visibility: hidden; } }
 
 .facebookLogo {
-  margin-left: 12px; }
+  margin-left: 6px; }
 
 .nav.solid {
   color: black;
@@ -484,7 +489,7 @@ hr {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(../img/bg.png);
+  background-image: url(../img/blobs.png);
   position: relative; }
   @media only screen and (max-width: 500px) {
     .hero, .hero-background {
@@ -522,8 +527,9 @@ hr {
 .scrollDown h4 {
   color: white;
   font-weight: 300;
+  font-size: 16px;
   text-align: center;
-  bottom: 0px;
+  bottom: 20px;
   left: 0;
   right: 0;
   position: absolute; }
@@ -534,7 +540,7 @@ hr {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 10px; }
+  bottom: 25px; }
 
 .hr1 {
   margin-top: 80px;
@@ -679,8 +685,7 @@ button {
 
 .person {
   background: #FFFFFF;
-  box-shadow: 0px 4px 12px rgba(70, 70, 70, 0.15);
-  border-radius: 8px;
+  border: 1px solid #dbd8d8;
   max-height: 100px;
   max-width: 328px;
   visibility: hidden;
@@ -722,6 +727,7 @@ button {
   background-color: black;
   border-radius: 100px;
   padding: 8px 28px;
+  font-weight: 500;
   float: right;
   cursor: pointer;
   transition: .2s all ease; }
@@ -790,6 +796,7 @@ a {
   background-color: black;
   border-radius: 100px;
   padding: 8px 18px;
+  font-weight: 500;
   float: right;
   transition: .2s all ease; }
   @media only screen and (max-width: 768px) {
@@ -831,6 +838,8 @@ a {
   transition: all 0.3s ease-out; }
   .calendarEvent img {
     width: 100%; }
+  .calendarEvent h4 {
+    font-size: 20px; }
   @media only screen and (max-width: 768px) {
     .calendarEvent h4 {
       text-align: left;
@@ -842,9 +851,9 @@ a {
       font-weight: 400;
       margin-left: 15px; } }
 
-.eventsDesc {
-  font-weight: 400;
-  font-size: 20px; }
+.eventDesc {
+  font-weight: 300;
+  font-size: 15px; }
 
 .calendarEvent h4 {
   color: black;
