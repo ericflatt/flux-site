@@ -493,7 +493,7 @@ hr {
   position: relative; }
   @media only screen and (max-width: 500px) {
     .hero, .hero-background {
-      background-image: url(../img/bgMobile.png); } }
+      background-image: url(../img/bg_mobile.png); } }
 
 .hero-background {
   display: table; }
@@ -739,6 +739,9 @@ button {
 .portfolioButton:hover {
   color: white; }
 
+.portfolioButton:focus {
+  color: white; }
+
 .buttonsContainer {
   float: right; }
   @media only screen and (max-width: 768px) {
@@ -804,6 +807,9 @@ a {
       float: left; } }
 
 .calendarButton:hover {
+  color: white; }
+
+.calendarButton:focus {
   color: white; }
 
 .card-container {
