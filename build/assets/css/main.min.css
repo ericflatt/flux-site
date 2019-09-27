@@ -730,11 +730,13 @@ button {
   font-weight: 500;
   float: right;
   cursor: pointer;
-  transition: .2s all ease; }
+  transition: .2s all ease;
+  margin-bottom: 10px; }
   @media only screen and (max-width: 768px) {
     .portfolioButton {
       float: none;
-      display: inline-block; } }
+      display: inline-block;
+      margin-bottom: 10px; } }
 
 .portfolioButton:hover {
   color: white; }
