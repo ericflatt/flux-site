@@ -883,6 +883,15 @@ a {
   margin-top: 12px;
   font-weight: 300; }
 
+.past-event h4 {
+  opacity: .5; }
+
+.past-event h5 {
+  opacity: .4; }
+
+.past-event img {
+  opacity: .6; }
+
 .socials {
   position: fixed;
   bottom: 50px;
