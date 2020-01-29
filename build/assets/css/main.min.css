@@ -347,18 +347,21 @@ hr {
   margin-left: 6px; }
 
 .nav.solid {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #316EFF;
   opacity: .9; }
   .nav.solid a {
-    color: black; }
+    color: white; }
   .nav.solid path {
-    fill: black; }
+    fill: white; }
 
 .social {
   position: fixed;
   float: right;
   margin-right: 25px; }
+
+.fluxLogo {
+  height: 40px; }
 
 .navContent {
   height: 100%;
@@ -489,7 +492,7 @@ hr {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(../img/blobs.png);
+  background-image: url(../img/background2020.png);
   position: relative; }
   @media only screen and (max-width: 500px) {
     .hero, .hero-background {
@@ -531,6 +534,10 @@ hr {
     color: white;
     font-weight: 300;
     padding-bottom: 20px; }
+  .hero-container h4 {
+    color: white;
+    font-weight: 200;
+    color: #D1DFFF; }
   @media only screen and (max-width: 768px) {
     .hero-container {
       width: 100vw;
@@ -553,6 +560,9 @@ hr {
   left: 0;
   right: 0;
   bottom: 25px; }
+
+.heroFlux {
+  width: 100px; }
 
 .hr1 {
   margin-top: 80px;
@@ -885,13 +895,13 @@ a {
   font-weight: 300; }
 
 .past-event h4 {
-  opacity: .5; }
-
-.past-event h5 {
   opacity: .4; }
 
+.past-event h5 {
+  opacity: .3; }
+
 .past-event img {
-  opacity: .6; }
+  opacity: .4; }
 
 .socials {
   position: fixed;
