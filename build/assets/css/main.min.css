@@ -683,6 +683,9 @@ button {
   border: 1.5px solid #268ff0;
   transition: all 0.1s ease; }
 
+img {
+  pointer-events: none; }
+
 .portfolioContainer {
   background-color: #F1F1F1;
   width: 100vw;
