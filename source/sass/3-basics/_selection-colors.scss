@@ -1,0 +1,24 @@
+// ::selection{
+//   background: #ACCEF7;
+// }
+
+
+// ::-moz-selection{
+//   background: #ACCEF7;
+// }
+
+
+img::selection{
+  background: #ACCEF7;
+}
+
+
+img::-moz-selection{
+  background: #ACCEF7;
+}
+
+
+// body{
+//   -webkit-tap-highlight-color: #ACCEF7;
+// }
+
