@@ -37,7 +37,7 @@ let images = require('gulp-imagemin');
 
 // Project Variables
 
-let styleSrc = 'source/sass/**/*.sass';
+let styleSrc = 'source/sass/**/*.scss';
 let styleDest = 'build/assets/css/';
 
 let vendorSrc = 'source/js/vendors/';
@@ -58,7 +58,7 @@ let htmlDest = 'build/';
 
 // Compiles SASS files
 function css(done) {
-    src('source/sass/**/*.sass')
+    src('source/sass/**/*.scss')
         .pipe(plumber())
         .pipe(sass({
             style: 'compressed'

@@ -874,9 +874,9 @@ a {
 .locationBarLocations a {
   font-weight: 600;
   font-size: 20px;
-  color: #316EFF;
+  color: #000000;
   padding: 5px;
-  border-bottom: #316EFF 5px solid; }
+ }
 
 .locationBarDiv {
   background-color: #E1E1E1;
