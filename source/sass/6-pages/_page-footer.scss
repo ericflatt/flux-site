@@ -1,92 +1,124 @@
-.signup
-    height: 100vh
-    text-align: center
-    display: flex
-    justify-content: center
-    align-items: center
+.signup{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    h2
-        font-size: 32px
-        font-weight: 700
-        margin-bottom: 0
-    h4
-        font-size: 20px
-        font-weight: 400
-        margin-top: 2px
-        margin-bottom: 5px
+    h2{
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
 
+    h4{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
 
-
-.emailLink
-    color: #316EFF
-    font-size: 15px
-    font-weight: 900
-    margin-top: 0px
-    margin-bottom: 50px
-
-.emailLink:hover
-    color: #316EFF
+}
 
 
 
 
-.footer
-    height: 600px
+.emailLink{
+    color: #316EFF;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
 
-.email-input
-    height: 45px
-    width: 450px
-    font-size: 16px
-    padding: 10px
-    border: 0.5px solid #c7c7c7
-    @media only screen and (max-width: 500px)
-        width: 250px
 
-.email-input:focus
-    outline: none
-    border: 1.5px solid #c7c7c7
-    transition: all 0.1s ease
-
-.email-submit
-    background-color: #000000
-    color: white
-    height: auto
-    padding: 8px 57px 8px 57px
-    width: auto
-    min-height: 40px
-    margin-top: 21px
-    text-transform: none
-    border-radius: 100px
-    transition: .2s all ease
-
-.email-submit-confirm
-    background-color: #00EAA5
-    // padding: 12px 67px 12px 67px
-    transition: all 0.1s ease
-
-.email-submit-error
-    background-color: #000000
-    // padding: 12px 67px 12px 67px
-    transition: all 0.1s ease
-
-.input-container
-    display: block
-    margin: auto
-
-.email-message
-    margin-top: 15px
-    font-size: 18px
-    padding: 10px
-    border: 0.5px solid #000000
-    border-radius: 10px
-    min-width: 400px
-    min-height: 120px
-    @media only screen and (max-width: 500px)
-        min-width: 300px
+.emailLink:hover{
+    color: #316EFF;
+}
 
 
 
-.email-message:focus
-    outline: none
-    border: 1.5px solid #268ff0
-    transition: all 0.1s ease
+
+
+.footer{
+    height: 600px;
+}
+
+
+.email-input{
+    height: 45px;
+    width: 450px;
+    font-size: 16px;
+    padding: 10px;
+    border: 0.5px solid #c7c7c7;
+    @media only screen and (max-width: 500px){
+        width: 250px;
+    }
+}
+
+
+
+.email-input:focus{
+    outline: none;
+    border: 1.5px solid #c7c7c7;
+    transition: all 0.1s ease;
+}
+
+
+.email-submit{
+    background-color: #000000;
+    color: white;
+    height: auto;
+    padding: 8px 57px 8px 57px;
+    width: auto;
+    min-height: 40px;
+    margin-top: 21px;
+    text-transform: none;
+    border-radius: 100px;
+    transition: .2s all ease;
+}
+
+
+.email-submit-confirm{
+    background-color: #00EAA5;
+    // padding: 12px 67px 12px 67px;
+    transition: all 0.1s ease;
+}
+
+
+.email-submit-error{
+    background-color: #000000;
+    // padding: 12px 67px 12px 67px;
+    transition: all 0.1s ease;
+}
+
+
+.input-container{
+    display: block;
+    margin: auto;
+}
+
+
+.email-message{
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+    min-width: 400px;
+    min-height: 120px;
+    @media only screen and (max-width: 500px){
+        min-width: 300px;
+    }
+
+}
+
+
+
+
+.email-message:focus{
+    outline: none;
+    border: 1.5px solid #268ff0;
+    transition: all 0.1s ease;
+}
+

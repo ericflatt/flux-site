@@ -182,11 +182,10 @@ th {
 
 html {
   box-sizing: border-box; }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit; }
+  html *,
+  html *:before,
+  html *:after {
+    box-sizing: inherit; }
 
 body {
   background: #0d1218 url("../img/ep_naturalblack.png");
@@ -224,20 +223,6 @@ input[type="button"] {
   cursor: pointer;
   box-sizing: border-box;
   transition: all 0.2s ease; }
-  .button:hover, .button:active, .button:focus,
-  button:hover,
-  button:active,
-  button:focus,
-  input[type="submit"]:hover,
-  input[type="submit"]:active,
-  input[type="submit"]:focus,
-  input[type="reset"]:hover,
-  input[type="reset"]:active,
-  input[type="reset"]:focus,
-  input[type="button"]:hover,
-  input[type="button"]:active,
-  input[type="button"]:focus {
-    outline: 0; }
 
 a {
   color: blue;
@@ -529,10 +514,10 @@ hr {
   .hero-container h1 {
     color: white;
     line-height: .5px; }
-    @media only screen and (max-width: 768px) {
-      .hero-container h1 {
-        line-height: .9;
-        margin: 0; } }
+  @media only screen and (max-width: 768px) {
+    .hero-container {
+      line-height: .9;
+      margin: 0; } }
   .hero-container h2 {
     color: white; }
   .hero-container h3 {
@@ -784,17 +769,14 @@ img {
       float: none;
       display: inline-block;
       margin-bottom: 10px; } }
-
-.portfolioButton:hover {
-  color: white; }
-
-.portfolioButton:focus {
-  color: white; }
-
-.buttonsContainer {
-  float: right; }
+  .portfolioButton .portfolioButton:hover {
+    color: white; }
+  .portfolioButton .portfolioButton:focus {
+    color: white; }
+  .portfolioButton .buttonsContainer {
+    float: right; }
   @media only screen and (max-width: 768px) {
-    .buttonsContainer {
+    .portfolioButton {
       width: 100%;
       text-align: center; } }
 
@@ -809,10 +791,9 @@ body {
 .button-hover:hover {
   background-color: #454545;
   transition: .2s all ease; }
-
-a {
-  text-decoration: none;
-  color: #4b4b4b; }
+  .button-hover:hover a {
+    text-decoration: none;
+    color: #4b4b4b; }
 
 .featuredText {
   margin-top: 25px;
@@ -876,7 +857,7 @@ a {
   font-size: 20px;
   color: #000000;
   padding: 5px;
- }
+  border-bottom: #316EFF 5px solid; }
 
 .locationBarDiv {
   background-color: #E1E1E1;
