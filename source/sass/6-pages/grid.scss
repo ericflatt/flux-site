@@ -137,6 +137,23 @@
     border-radius: 0px 0px 8px 8px;
 }
 
+.email-card {
+    height: 100%;
+    background-color: #FAFAFA;
+    border: .5px solid #C8C8C8;
+    border-radius: 8px;
+    padding: 35px 35px 35px 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h5{
+        padding: 0px 20px ;
+    }
+}
+
 .card-holder{
     margin-top: 30px;
     display: grid;
