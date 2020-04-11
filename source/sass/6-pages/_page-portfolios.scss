@@ -4,7 +4,7 @@ img{
 
 
 .portfolioContainer{
-    background-color: #F1F1F1;
+    background-color: #ffffff;
     width: 100vw;
     padding-bottom: 40px;
 }
@@ -16,7 +16,6 @@ img{
 }
 
 .portfolioBarDiv{
-    width: 80%;
     margin: auto;
     height: 1px;
     background-color: #E1E1E1;
@@ -119,25 +118,21 @@ img{
     @media only screen and (max-width: 768px){
         float: none;
         display: inline-block;
-        margin-bottom: 10px;
-    }
-
-.portfolioButton:hover{
-    color: white;
-}
-
-.portfolioButton:focus{
-    color: white;
-}
-
-.buttonsContainer{
-    float: right;
-}
-
-
-    @media only screen and (max-width: 768px){
+        margin: 0px 0px 10px 0px;
         width: 100%;
         text-align: center;
+    }
+
+    .portfolioButton:hover{
+        color: white;
+    }
+
+    .portfolioButton:focus{
+        color: white;
+    }
+
+    .buttonsContainer{
+        float: right;
     }
 }
 
