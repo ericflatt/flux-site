@@ -4,14 +4,14 @@
     max-width: 100%;
     margin: auto 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../img/background2020.png);
+    background-image: url(../img/newBG.png);
     position: relative;
 
-    @media only screen and (max-width: 500px){
-        background-image: url(../img/bg_mobile.png);
+    @media only screen and (max-width: 1000px){
+        background: #316EFF;
     }
 }
 
@@ -168,6 +168,7 @@ button{
     font-family: 'Barlow', sans-serif;
     width: 200px;
     height: 60px;
+    margin: 0px 10px;
 }
 
         
