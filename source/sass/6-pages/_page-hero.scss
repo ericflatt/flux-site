@@ -7,14 +7,34 @@
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
-    background-image: url(../img/newBG.png);
+    // background-image: url(../img/newBG.png);
     position: relative;
+    background-color: #1B5BF5;
 
     @media only screen and (max-width: 1000px){
-        background: #316EFF;
+        background-color: #1B5BF5;
     }
 }
 
+.blue-circle{
+    position: absolute;
+    left: 0px;
+    top: -250px;
+    z-index: -999;
+}
+
+.pink-triangle{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 999;
+}
+
+.lax{
+    @media (max-width:700px) {
+        visibility: hidden;
+    }
+}
 
 
 

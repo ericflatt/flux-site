@@ -308,7 +308,7 @@ hr {
   height: 0; }
 
 .nav {
-  background-color: #1D58E3;
+  background-color: #1B5BF5;
   width: 100%;
   z-index: 999;
   position: fixed;
@@ -316,8 +316,7 @@ hr {
   align-items: center;
   padding: 10px 35px;
   transition: .5s all ease;
-  font-family: 'Barlow', sans-serif;
-  border-bottom: .5px solid #0C40BA; }
+  font-family: 'Barlow', sans-serif; }
   .nav a {
     margin-right: 10px;
     margin-left: 10px;
@@ -483,11 +482,27 @@ hr {
   background-size: 100%;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(../img/newBG.png);
-  position: relative; }
+  position: relative;
+  background-color: #1B5BF5; }
   @media only screen and (max-width: 1000px) {
     .hero, .hero-background {
-      background: #316EFF; } }
+      background-color: #1B5BF5; } }
+
+.blue-circle {
+  position: absolute;
+  left: 0px;
+  top: -250px;
+  z-index: -999; }
+
+.pink-triangle {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  z-index: 999; }
+
+@media (max-width: 700px) {
+  .lax {
+    visibility: hidden; } }
 
 .mentorButton {
   color: black;
